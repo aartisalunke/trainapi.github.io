@@ -1,0 +1,63 @@
+body {
+    background: #ff9966;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+    
+}
+
+.main{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+
+    /* border: 1px solid red; */
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box h1{
+    color:darkgreen;
+}
+
+.inputFeild input{
+    
+    padding: 7px 3px;
+    border-radius: 5px;
+    margin: 20PX 0PX; 
+ 
+}
+
+#rnumber{
+    width: 28vw;
+}
+
+.send{
+    background-color:aqua;
+    width: 5vw;
+}
+#railwaysdata table{
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: white;
+    line-height: 50px;
+    border-radius: 20px;
+    font-size: larger;
+
+}
+th{
+    color:green;
+    
+}
+
